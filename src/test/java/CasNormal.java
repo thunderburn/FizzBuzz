@@ -9,21 +9,21 @@ public class CasNormal {
 	@Test
 	public void casNormal() {
 		Jeu jeu = new Jeu();
-		String reponse = Jeu.jouer(2);
-		assertEquals("2", reponse);
+		String reponse = jeu.jouer(8);
+		assertEquals("8", reponse);
 	}
 	
 	@Test
 	public void casMultiple5(){
 		Jeu jeu = new Jeu();
-		String reponse = Jeu.jouer(5);
+		String reponse = jeu.jouer(20);
 		assertEquals("Buzz", reponse);
 	}
 	
 	@Test
 	public void casMultiple3(){
 		Jeu jeu = new Jeu();
-		String reponse = Jeu.jouer(3);
+		String reponse = jeu.jouer(3);
 		assertEquals("Fizz", reponse);
 	}
 

@@ -5,13 +5,13 @@
  */
 public class Jeu {
 
-	public static String jouer(int nombre){
+	public String jouer(int nombre){
 		String reponse = "";
-		if(nombre/5 == 1){
+		if(nombre%5 == 0){
 			reponse = "Buzz";
 		}
 		else{
-			if(nombre/3 == 1){
+			if(nombre%3 == 0){
 				reponse = "Fizz";
 			}
 			else{
