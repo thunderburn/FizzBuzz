@@ -4,7 +4,7 @@ import junit.framework.Assert;
 import org.junit.Test;
 
 
-public class CasNormal {
+public class TestsJeu {
 
 	@Test
 	public void casNormal() {
