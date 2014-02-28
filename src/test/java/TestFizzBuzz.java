@@ -1,7 +1,6 @@
 import org.junit.Test;
 import junit.framework.Assert;
 import org.omg.DynamicAny._DynFixedStub;
-import sun.org.mozilla.javascript.internal.EcmaError;
 
 /**
  * Created by valentindufermont on 28/03/2014.
