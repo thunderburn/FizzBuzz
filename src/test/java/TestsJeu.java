@@ -3,7 +3,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 
-public class CasNormal {
+public class TestsJeu {
 
 	@Test
 	public void casNormal() {
