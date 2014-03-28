@@ -15,7 +15,7 @@ public class CasNormal {
 	@Test
 	public void casMultiple5(){
 		Jeu jeu = new Jeu();
-		String reponse = jeu.jouer(7);
+		String reponse = jeu.jouer(20);
 		assertEquals("Buzz", reponse);
 	}
 	
